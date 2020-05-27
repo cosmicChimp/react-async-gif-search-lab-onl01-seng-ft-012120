@@ -1,7 +1,6 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
+import React from "react";
+import ReactDOM from "react-dom";
+// import GifListContainer from "./containers/GifListContainer";
+import App from "./components/App";
 
-import App from './components/App'
-
-
-ReactDOM.render(< App />, document.getElementById('container'))
+ReactDOM.render(<App />, document.getElementById("container"));
